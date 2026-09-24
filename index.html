@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Week2</title>
+</head>
+<body>
+    <header>
+        <h1>UMKM Laundry</h1>
+        <p>Bisnis UMKM dengan AI</p>
+    </header>
+    
+    <nav>
+        <a href="#profil">Profil</a>
+        <a href="#pesanan">Pesanan</a>
+    </nav>
+    <section id="profil">
+        <h2>Profil</h2>
+        <img src="images.jpeg" alt="Laundry" width="160">
+    </section>
+
+    <section id="pesanan">
+        <h3>Formulir Pemesanan</h3>
+        <p>Silakan isi formulir di bawah ini.</p>
+        <form id="formpesanan" action="#" method="POST">
+            <label for="nama">Nama:</label>
+            <input type="text" name="nama" id="nama" required>
+            <fieldset>
+                <legend>Pilih Pesanan</legend>
+                <input type="radio" name="pesanan" id="pesanan" value="pesanan" required>
+                <label for="pesanan">Kilat</label>
+                
+                <input type="radio" name="pesanan" id="pesanan" value="pesanan">
+                <label for="tidak">Standard</label>
+            </fieldset>
+            <input type="submit" value="Kirim">
+        </form>
+    </section>
+
+</body>
+</html>
